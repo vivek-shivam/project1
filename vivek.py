@@ -238,7 +238,7 @@ def start():
         print "WELCOME BACK"
         spy.name = spy.salutation + " " + spy.name
         spy_password = raw_input("enter your password please")
-        #password so that no one else can log in
+        #password so that no one else can log in password : asdf
         if spy_password == "asdf":
             start_chat(spy)
         else:
